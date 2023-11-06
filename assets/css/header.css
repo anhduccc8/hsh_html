@@ -58,7 +58,7 @@
 
 /* logo */
 .logo-hsh img {
-    max-width: 160px;
+    max-width: 80px;
 }
 
 /* btn nav mobile */
@@ -128,31 +128,7 @@
 .header-bottom a {
     margin-right: 7px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header-bottom a:last-child, .shs-lang a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
