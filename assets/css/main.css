@@ -97,6 +97,9 @@ ul li {
         display: none;
     }
 }
+.color-white {
+    color: #fff !important;
+}
 .fs-100 {
     font-size: 100px !important; 
 }
@@ -165,7 +168,7 @@ ul li {
     color: #111111;
 }
 .btn-out-line {
-    border: 1px solid var(--primary_color);
+    border: 2px solid var(--primary_color);
     background-color: transparent;
     color: #111111;
     text-transform: uppercase;
@@ -580,14 +583,102 @@ ul li {
     transform: scale(1.06);
 }
 
+/* page blog */
+.shs-section-new {
+    background-color: rgba(241, 249, 252, .9);
+    position: relative;
+}
 
+.shs-section-new:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -95px;
+    width: 95%;
+    height: 100%;
+    background-color: rgba(241, 249, 252, .9);
+}
 
+.shs-section-new .shs-heading-widget-blog {
+    padding-left: 0px;
+}
 
+.shs-section-new .img-sub-heading-style-02 {
+    bottom: -49px;
+}
 
+@media (min-width: 1451px) {
+    .shs-section-new .shs-section-blog {
+        padding: 131px 55px 100px 55px;
+    }
+}
 
+.img-slide-new {
+    max-height: 203px;
+}
 
+.shs-heading-meta.style-02 {
+    position: relative;
+}
 
+.shs-heading-meta.style-02 .img-slide-new {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.shs-slide .shs-heading-meta.style-02:before {
+    top: 0px;
+    bottom: 0px;
+}
 
+.slider-content .shs-slide.content-middle {
+    top: 0;
+    left: 146px;
+    bottom: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.shs-nav-number-bottom {
+    text-align: center;
+    margin-top: 33px;
+}
+
+.shs-nav-number-bottom .nav-number {
+    z-index: 101;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid var(--primary_color);
+    background-color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 4.5px;
+}
+
+.shs-nav-number-bottom .nav-number:hover {
+    background-color: var(--primary_color);
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .shs-nav-number-bottom .nav-number {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 24px;
+        margin: 0 3px;
+    }
+    .shs-nav-number-bottom {
+        margin-top: 20px;
+    }
+}
 
 
 
