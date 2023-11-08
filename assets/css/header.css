@@ -80,22 +80,22 @@
     }
 }
 
-.shs-header-custom, .slider-content img {
+.shs-header-custom, .slider-content .bgr-img {
     min-height: 1080px;
     position: relative;
 }
 
 .site-header-desktop {
-    width: 185px;
+    width: 95px;
     height: 100%;
     position: absolute;
-    left: -185px;
+    left: -95px;
 }
 
 .shs-column-header {
     position: absolute;
     top: 0;
-    left: 40px;
+    left: -1px;
     width: 100%;
     height: 100%;
     text-align: center;
