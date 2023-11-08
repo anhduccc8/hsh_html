@@ -211,6 +211,10 @@
         transform: rotate(0deg);
     }
 
+    .item-post-heading {
+        font-size: 24px !important;
+    } 
+
 }
 
 @media (max-width: 575px) {
